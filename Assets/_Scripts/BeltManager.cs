@@ -8,35 +8,67 @@ public class BeltManager : MonoBehaviour
     public Transform spawnPoint;
     public ConveyorBelt horizontalConveyor;
 
-    private GameObject currentItem;
-    private bool isSpawning = false;
+    private bool canSpawn = true;
 
     void Start()
     {
-        StartCoroutine(SpawnItemRoutine());
+        StartCoroutine(SpawnRoutine());
     }
 
-    IEnumerator SpawnItemRoutine()
+    IEnumerator SpawnRoutine()
     {
         while (true)
         {
-            yield return new WaitForSeconds(5f); // jeda antar spawn
-
-            int random = Random.Range(0, 2);
-
-            if (random == 0)
+            if (canSpawn)
             {
-                currentItem = Instantiate(boxPrefab, spawnPoint.position, Quaternion.identity);
-                horizontalConveyor.direction = new Vector3(0, 0, -1); // kiri
-            }
-            else
-            {
-                currentItem = Instantiate(cardboardPrefab, spawnPoint.position, Quaternion.identity);
-                horizontalConveyor.direction = new Vector3(0, 0, 1); // kanan
+                canSpawn = false;
+                SpawnItem();
             }
 
-            // Optional: tambahkan log untuk debug
-            Debug.Log($"Spawned: {currentItem.name}, Conveyor arah: {horizontalConveyor.direction}");
+            yield return null;
         }
+    }
+
+    void SpawnItem()
+    {
+        int random = Random.Range(0, 2);
+
+        GameObject prefabToSpawn;
+        Vector3 direction;
+
+        ItemTracker.ItemType itemType;
+
+        if (random == 0)
+        {
+            prefabToSpawn = boxPrefab;
+            direction = new Vector3(0, 0, -1);
+            itemType = ItemTracker.ItemType.Luggage;
+        }
+        else
+        {
+            prefabToSpawn = cardboardPrefab;
+            direction = new Vector3(0, 0, 1);
+            itemType = ItemTracker.ItemType.Cardboard;
+        }
+
+        GameObject item = Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
+        horizontalConveyor.direction = direction;
+
+        ItemTracker tracker = item.AddComponent<ItemTracker>();
+        tracker.itemType = itemType;
+        tracker.beltManager = this;
+
+        Debug.Log($"Spawned: {item.name}, Conveyor arah: {direction}");
+    }
+
+    public void NotifyItemArrived()
+    {
+        StartCoroutine(SpawnDelay());
+    }
+
+    IEnumerator SpawnDelay()
+    {
+        yield return new WaitForSeconds(1f); // delay sebelum spawn baru
+        canSpawn = true;
     }
 }
