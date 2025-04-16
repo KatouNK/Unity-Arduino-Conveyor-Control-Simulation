@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|c:\\users\\muham\\downloads\\unity-arduino-conveyor-control-simulation-main\\assets\\_scripts\\belttexturescroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\belttexturescroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|c:\\users\\muham\\downloads\\unity-arduino-conveyor-control-simulation-main\\assets\\_scripts\\conveyorbelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\conveyorbelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|c:\\users\\muham\\downloads\\unity-arduino-conveyor-control-simulation-main\\assets\\_scripts\\itemtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\itemtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|c:\\users\\muham\\downloads\\unity-arduino-conveyor-control-simulation-main\\assets\\_scripts\\conveyormanualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\conveyormanualcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|c:\\users\\muham\\downloads\\unity-arduino-conveyor-control-simulation-main\\assets\\_scripts\\beltmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781B2B3-48F9-8948-DAF4-112DF5EA67BE}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\beltmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConveyorManualController.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\ConveyorManualController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\ConveyorManualController.cs",
+              "ToolTip": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\ConveyorManualController.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\ConveyorManualController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:49:26.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemTracker.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\ItemTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\ItemTracker.cs",
+              "ToolTip": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\ItemTracker.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\ItemTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:49:24.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConveyorBelt.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\ConveyorBelt.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\ConveyorBelt.cs",
+              "ToolTip": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\ConveyorBelt.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\ConveyorBelt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:49:18.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BeltTextureScroll.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\BeltTextureScroll.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\BeltTextureScroll.cs",
+              "ToolTip": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\BeltTextureScroll.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\BeltTextureScroll.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:48:17.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BeltManager.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\BeltManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\BeltManager.cs",
+              "ToolTip": "C:\\Users\\muham\\Downloads\\Unity-Arduino-Conveyor-Control-Simulation-main\\Assets\\_Scripts\\BeltManager.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\BeltManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:48:08.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
