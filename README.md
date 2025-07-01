@@ -7,7 +7,7 @@
 This repository contains a 3D simulation project for controlling a conveyor system using **Unity** for visualization and an **Arduino** as the logic controller (the brain). This project demonstrates how hardware (Arduino) can communicate with software (Unity) in *real-time* via serial communication.
 
 ![conveyor-demo](https://i.imgur.com/your-gif-url.gif)
-*(Suggestion: Replace the URL above with a link to a GIF or screenshot of your project demo to make it more engaging.)*
+
 
 ---
 
